@@ -12,17 +12,29 @@ do
   read input
   case $input in
     "1")
-      echo "sum 2 numbers"
+      echo "-------ADDING one number to another-------"
+      echo "Enter the FIRST number"
+      read firstNumber
+      echo "Enter the SECOND number"
+      read secondNumber
+      echo "Your result:"
+      expr $firstNumber + $secondNumber
       ;;
     "2")
-      echo "subtract 2 numbers"
+      echo "-------SUBTRACTING one number from another-------"
+      echo "Enter the FIRST number"
+      read firstNumber
+      echo "Enter the SECOND number"
+      read secondNumber
+      echo "Your result:"
+      expr $firstNumber - $secondNumber
       ;;
     "3")
       echo "Exiting..."
       break
       ;;
     *)
-      echo "Error, enter incorrect command!"
+      echo "Error, please enter correct command!"
       ;;
   esac
 done
