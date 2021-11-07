@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-# When the program is first loaded, display a greeting to the user.
+echo "Hello, you are using the best calculator in the world"
 # Then, display a menu that outlines the possible operations:
   # Add
   # Subtract
